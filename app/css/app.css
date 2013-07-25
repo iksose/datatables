@@ -1,0 +1,91 @@
+
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.dicks{
+  vertical-align: middle;
+  border-color: inherit;
+  border-collapse: separate;
+  border-spacing: 2px;
+
+}
+
+.peanut {
+  margin: 100px;
+  padding: 100px;
+}
+
+
+.peanut td{
+  margin: 100px;
+  padding: 100px;
+  background-color: #dcf8ff;
+  border-bottom-style: solid;
+  border-width: 1px;
+}
+
+
+/*.dicks td{
+  margin-left: 200px;
+  padding-left: 200px;
+}*/
+
+.COCKS {
+  background-color: yellow;
+  display: inline-block;
+  /*padding: 50px 50px !important;*/
+    /*margin-left: 200px;*/
+    margin-right: 200px;
+}
+
+.COCKS td{
+  padding: 3px 10px;
+  margin: 200px;
+  padding: 200px;
+}
+
+.details{
+  padding: 20px;
+}
+
+
+.diffColor{
+  font-weight: 900;
+}
+
+tbody tr {
+  -webkit-transition: all 500ms;
+}
+
+tbody tr.faded {
+  opacity: .5;
+}
+
+
